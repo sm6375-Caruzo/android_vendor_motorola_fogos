@@ -206,7 +206,9 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/xpeng/proprietary/vendor/firmware/aw882xx_pid_2113_acf.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw882xx_pid_2113_acf.bin \
     vendor/motorola/xpeng/proprietary/vendor/firmware/aw882xx_spk_reg.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw882xx_spk_reg.bin \
     vendor/motorola/xpeng/proprietary/vendor/firmware/mp_novatek_ts-NT36675-21101302-6044-xpeng.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/mp_novatek_ts-NT36675-21101302-6044-xpeng.bin \
+    vendor/motorola/xpeng/proprietary/recovery/root/vendor/firmware/mp_novatek_ts-NT36675-21101302-6044-xpeng.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/mp_novatek_ts-NT36675-21101302-6044-xpeng.bin \
     vendor/motorola/xpeng/proprietary/vendor/firmware/novatek_ts-NT36675-21101302-6044-xpeng.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/novatek_ts-NT36675-21101302-6044-xpeng.bin \
+    vendor/motorola/xpeng/proprietary/recovery/root/vendor/firmware/novatek_ts-NT36675-21101302-6044-xpeng.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/novatek_ts-NT36675-21101302-6044-xpeng.bin \
     vendor/motorola/xpeng/proprietary/vendor/firmware/st21nfc_fw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/st21nfc_fw.bin \
     vendor/motorola/xpeng/proprietary/vendor/firmware/st21nfc_fw7.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/st21nfc_fw7.bin \
     vendor/motorola/xpeng/proprietary/vendor/lib/camera/com.mot.eeprom.mot_gt24p64b_hi1336_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.mot.eeprom.mot_gt24p64b_hi1336_eeprom.so \
