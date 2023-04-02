@@ -9,9 +9,9 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/xpeng/proprietary/vendor/bin/STFlashTool:$(TARGET_COPY_OUT_VENDOR)/bin/STFlashTool \
     vendor/motorola/xpeng/proprietary/vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service-ets:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.biometrics.fingerprint@2.1-service-ets \
     vendor/motorola/xpeng/proprietary/vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service-fpc:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.biometrics.fingerprint@2.1-service-fpc \
-    vendor/motorola/xpeng/proprietary/vendor/bin/hw/egis_ident:$(TARGET_COPY_OUT_VENDOR)/bin/hw/egis_ident \
-    vendor/motorola/xpeng/proprietary/vendor/bin/hw/fpc_ident:$(TARGET_COPY_OUT_VENDOR)/bin/hw/fpc_ident \
-    vendor/motorola/xpeng/proprietary/vendor/bin/hw/goodix_ident:$(TARGET_COPY_OUT_VENDOR)/bin/hw/goodix_ident \
+    vendor/motorola/xpeng/proprietary/vendor/bin/egis_ident:$(TARGET_COPY_OUT_VENDOR)/bin/egis_ident \
+    vendor/motorola/xpeng/proprietary/vendor/bin/fpc_ident:$(TARGET_COPY_OUT_VENDOR)/bin/fpc_ident \
+    vendor/motorola/xpeng/proprietary/vendor/bin/goodix_ident:$(TARGET_COPY_OUT_VENDOR)/bin/goodix_ident \
     vendor/motorola/xpeng/proprietary/vendor/bin/hw/motorola.hardware.camera.desktop@2.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/motorola.hardware.camera.desktop@2.0-service \
     vendor/motorola/xpeng/proprietary/vendor/etc/acdbdata/Bluetooth_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Bluetooth_cal.acdb \
     vendor/motorola/xpeng/proprietary/vendor/etc/acdbdata/General_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/General_cal.acdb \
