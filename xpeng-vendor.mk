@@ -6,7 +6,30 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/motorola/xpeng
 
 PRODUCT_COPY_FILES += \
+    vendor/motorola/xpeng/proprietary/product/etc/init/init.motcamera3.lens.rc:$(TARGET_COPY_OUT_PRODUCT)/etc/init/init.motcamera3.lens.rc \
+    vendor/motorola/xpeng/proprietary/product/etc/permissions/com.motorola.camera3.content.ai.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.motorola.camera3.content.ai.xml \
+    vendor/motorola/xpeng/proprietary/product/etc/permissions/com.motorola.camera3.lens.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.motorola.camera3.lens.xml \
+    vendor/motorola/xpeng/proprietary/product/etc/permissions/com.motorola.camera3.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.motorola.camera3.xml \
+    vendor/motorola/xpeng/proprietary/product/etc/permissions/com.motorola.camera3.xpeng.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.motorola.camera3.xpeng.xml \
+    vendor/motorola/xpeng/proprietary/product/etc/permissions/com.motorola.moto-uirefresh.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.motorola.moto-uirefresh.xml \
+    vendor/motorola/xpeng/proprietary/product/etc/permissions/com.motorola.motodisplay.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.motorola.motodisplay.xml \
+    vendor/motorola/xpeng/proprietary/product/etc/permissions/deviceowner-configuration-com.motorola.camera3.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/deviceowner-configuration-com.motorola.camera3.xml \
+    vendor/motorola/xpeng/proprietary/product/etc/permissions/privapp-permissions-com.motorola.camera3.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-com.motorola.camera3.xml \
+    vendor/motorola/xpeng/proprietary/product/etc/permissions/privapp-permissions-com.motorola.motodisplay.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-com.motorola.motodisplay.xml \
+    vendor/motorola/xpeng/proprietary/product/etc/sysconfig/hiddenapi-whitelist-com.motorola.camera3.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/hiddenapi-whitelist-com.motorola.camera3.xml \
+    vendor/motorola/xpeng/proprietary/system/etc/permissions/com.motorola.frameworks.core.addon.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.motorola.frameworks.core.addon.xml \
+    vendor/motorola/xpeng/proprietary/system/etc/permissions/com.motorola.motosignature.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.motorola.motosignature.xml \
+    vendor/motorola/xpeng/proprietary/system/etc/permissions/moto-core_services.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/moto-core_services.xml \
+    vendor/motorola/xpeng/proprietary/system/etc/permissions/moto-settings.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/moto-settings.xml \
+    vendor/motorola/xpeng/proprietary/system_ext/bin/motsettings:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/motsettings \
     vendor/motorola/xpeng/proprietary/system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.android.hotwordenrollment.common.util.xml \
+    vendor/motorola/xpeng/proprietary/system_ext/etc/permissions/com.motorola.androidx.camera.extensions.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.motorola.androidx.camera.extensions.xml \
+    vendor/motorola/xpeng/proprietary/system_ext/etc/public.libraries-motocamera.txt:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/public.libraries-motocamera.txt \
+    vendor/motorola/xpeng/proprietary/system_ext/etc/public.libraries-motocameradesktop.txt:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/public.libraries-motocameradesktop.txt \
+    vendor/motorola/xpeng/proprietary/system_ext/lib/libjni_helper.motocameradesktop.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libjni_helper.motocameradesktop.so \
+    vendor/motorola/xpeng/proprietary/system_ext/lib/libmcf_native_window_helper.motocamera.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libmcf_native_window_helper.motocamera.so \
+    vendor/motorola/xpeng/proprietary/system_ext/lib64/libjni_helper.motocameradesktop.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libjni_helper.motocameradesktop.so \
+    vendor/motorola/xpeng/proprietary/system_ext/lib64/libmcf_native_window_helper.motocamera.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libmcf_native_window_helper.motocamera.so \
     vendor/motorola/xpeng/proprietary/vendor/bin/STFlashTool:$(TARGET_COPY_OUT_VENDOR)/bin/STFlashTool \
     vendor/motorola/xpeng/proprietary/vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service-ets:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.biometrics.fingerprint@2.1-service-ets \
     vendor/motorola/xpeng/proprietary/vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service-fpc:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.biometrics.fingerprint@2.1-service-fpc \
@@ -614,6 +637,14 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/xpeng/proprietary/vendor/lib64/vendor.qti.hardware.fingerprint@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.fingerprint@1.0.so
 
 PRODUCT_PACKAGES += \
+    MotoSignatureApp \
+    MotCamera3AI \
     HotwordEnrollmentOKGoogleHEXAGON \
     HotwordEnrollmentXGoogleHEXAGON \
-    com.android.hotwordenrollment.common.util
+    MotCamera4 \
+    MotorolaSettingsProvider \
+    com.motorola.motosignature \
+    moto-core_services \
+    moto-settings \
+    com.android.hotwordenrollment.common.util \
+    com.motorola.androidx.camera.extensions
