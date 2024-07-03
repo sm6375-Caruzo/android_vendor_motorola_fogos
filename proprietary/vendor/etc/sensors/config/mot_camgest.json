@@ -1,8 +1,8 @@
 {
   "config":
   {
-    "hw_platform": ["QRD", "MTP", "Dragon", "Surf", "HDK", "IDP"],
-    "soc_id": ["415"]
+     "hw_platform": ["HDK", "MTP", "Dragon", "Surf", "IDP"],
+     "soc_id": ["361", "339", "365", "454", "507", "578"]
   },
   "mot_camgest":{
     "owner": "mot_camgest",
